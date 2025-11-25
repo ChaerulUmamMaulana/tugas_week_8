@@ -48,9 +48,25 @@ class PageCard01 extends StatelessWidget {
                     ],
                   ),
                 ),
-                SizedBox(height: 10),
-                Stack()
-
+                      SizedBox(height: 25),
+             Center(
+                child: Container(
+                  width: 330,
+                  height: 200,
+                  padding: const EdgeInsets.all(20),
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(25),
+                    gradient: const LinearGradient(
+                      colors: [
+                        Color(0xff143e67),
+                        Color(0xff1e4c7f),
+                      ],
+                      begin: Alignment.topLeft,
+                      end: Alignment.bottomRight,
+                    ),
+                  ),
+                ),
+                ),
               ],
               ),
             ),
