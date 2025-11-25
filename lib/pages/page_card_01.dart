@@ -119,12 +119,21 @@ class PageCard01 extends StatelessWidget {
                               ),
                     ],
                     ),
+                      Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: const [
+                              Text(
+                                "CVV",
+                                style:
+                                    TextStyle(color: Colors.white70, fontSize: 12),
+                              ),
                         ],
                   ),
                     ],
                 ),
-            
+                    ],
                 ),
+             ),
              ),
               ],
               ),
