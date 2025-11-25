@@ -87,11 +87,12 @@ class PageCard01 extends StatelessWidget {
                           fontWeight: FontWeight.w500,
                         ),
                       ),
-                      SizedBox(height: 20),
+                      SizedBox(height: 12),
                       Text(
                         "Chaerul Umam Maulana",
                         style: TextStyle(color: Colors.white, fontSize: 16),
                       ),
+                      SizedBox(height: 12),
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
@@ -135,33 +136,39 @@ class PageCard01 extends StatelessWidget {
                               ),
                             ],
                           ),
-                          Row(
+                          Column(
+                            crossAxisAlignment: CrossAxisAlignment.center,
                             children: [
-                              Container(
-                                width: 28,
-                                height: 28,
-                                decoration: const BoxDecoration(
-                                  color: Colors.red,
-                                  shape: BoxShape.circle,
-                                ),
-                              ),
-                              Transform.translate(
-                                offset: const Offset(-10, 0),
-                                child: Container(
-                                  width: 28,
-                                  height: 28,
-                                  decoration: const BoxDecoration(
-                                    color: Colors.orange,
-                                    shape: BoxShape.circle,
+                              Row(
+                                mainAxisSize: MainAxisSize.min,
+                                children: [
+                                  Container(
+                                    width: 28,
+                                    height: 28,
+                                    decoration: const BoxDecoration(
+                                      color: Colors.red,
+                                      shape: BoxShape.circle,
+                                    ),
                                   ),
-                                ),
+                                  Transform.translate(
+                                    offset: const Offset(-10, 0),
+                                    child: Container(
+                                      width: 28,
+                                      height: 28,
+                                      decoration: const BoxDecoration(
+                                        color: Colors.orange,
+                                        shape: BoxShape.circle,
+                                      ),
+                                    ),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
                           SizedBox(height: 5),
                           Text(
                             "MasterCard",
-                            style: TextStyle(color: Colors.white, fontSize: 13),
+                            style: TextStyle(color: Colors.white, fontSize: 13, fontWeight: FontWeight.w500),
                           ),
                         ],
                       ),
