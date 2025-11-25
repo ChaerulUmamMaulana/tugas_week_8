@@ -83,6 +83,17 @@ class PageCard01 extends StatelessWidget {
                           Icon(Icons.wifi, color: Colors.white70),
                         ],
                       ),
+                     SizedBox(height: 18),
+                     Text(
+                        "1122 3245 5678 2104",
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 22,
+                          letterSpacing: 2,
+                          fontWeight: FontWeight.w500,
+                        ),
+                      ),
+
                     ],
                     ),
                   
