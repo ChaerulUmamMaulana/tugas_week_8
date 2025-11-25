@@ -50,7 +50,7 @@ class PageCard01 extends StatelessWidget {
               Center(
                 child: Container(
                   width: 330,
-                  height: 200,
+                  height: 220,
                   padding: const EdgeInsets.all(20),
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(25),
@@ -95,6 +95,7 @@ class PageCard01 extends StatelessWidget {
                       SizedBox(height: 12),
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
@@ -139,36 +140,38 @@ class PageCard01 extends StatelessWidget {
                           Column(
                             crossAxisAlignment: CrossAxisAlignment.center,
                             children: [
-                              Row(
-                                mainAxisSize: MainAxisSize.min,
+                              Stack(
+                                clipBehavior: Clip.none,
                                 children: [
                                   Container(
-                                    width: 28,
-                                    height: 28,
+                                    width: 30,
+                                    height: 30,
                                     decoration: const BoxDecoration(
-                                      color: Colors.red,
+                                      color: Color(0xFFEB001B),
                                       shape: BoxShape.circle,
                                     ),
                                   ),
-                                  Transform.translate(
-                                    offset: const Offset(-10, 0),
-                                    child: Container(
-                                      width: 28,
-                                      height: 28,
-                                      decoration: const BoxDecoration(
-                                        color: Colors.orange,
-                                        shape: BoxShape.circle,
-                                      ),
+                                  Container(
+                                    margin: const EdgeInsets.only(left: 15),
+                                    width: 30,
+                                    height: 30,
+                                    decoration: const BoxDecoration(
+                                      color: Color(0xFFF79E1B),
+                                      shape: BoxShape.circle,
                                     ),
                                   ),
                                 ],
                               ),
+                              SizedBox(height: 5),
+                              Text(
+                                "MasterCard",
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 13,
+                                  fontWeight: FontWeight.w500,
+                                ),
+                              ),
                             ],
-                          ),
-                          SizedBox(height: 5),
-                          Text(
-                            "MasterCard",
-                            style: TextStyle(color: Colors.white, fontSize: 13, fontWeight: FontWeight.w500),
                           ),
                         ],
                       ),
