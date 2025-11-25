@@ -153,15 +153,25 @@ class PageCard01 extends StatelessWidget {
                                     color: Colors.orange,
                                     shape: BoxShape.circle,
                                   ),
-                                ),
+                                      ),
                               ),
-
                     ],
                 ),
+                SizedBox(height: 5),
+              Text(
+      "Mastercard",
+      style: TextStyle(
+        color: Colors.white,
+        fontSize: 13,
+      ),
+    ),
                     ],
                 ),
+                
                     ],
+                    
              ),
+             
              ),
              ),
               ],
