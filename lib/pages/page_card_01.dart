@@ -38,7 +38,13 @@ class PageCard01 extends StatelessWidget {
                         title: Text('Belum Ada Judul'),
                         subtitle: Text('Sebuah Judul Lagu Dari Iwan Fals'),
                       ),
-                    
+                    Padding(
+                      padding: EdgeInsetsGeometry.all(16.0),
+                      child: Text(
+                        'Card dapat di isi berbagai widget seperti text,'
+                        'image, button, dan lainnya.',
+                      ),
+                    )
                     ],
                   ),
                 )
