@@ -50,7 +50,7 @@ class PageCard01 extends StatelessWidget {
               Center(
                 child: Container(
                   width: 330,
-                  height: 220,
+                  height: 235,
                   padding: const EdgeInsets.all(20),
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(25),
@@ -87,10 +87,10 @@ class PageCard01 extends StatelessWidget {
                           fontWeight: FontWeight.w500,
                         ),
                       ),
-                      SizedBox(height: 12),
+                      SizedBox(height: 20),
                       Text(
                         "Chaerul Umam Maulana",
-                        style: TextStyle(color: Colors.white, fontSize: 16),
+                        style: TextStyle(color: Colors.white, fontSize: 18),
                       ),
                       SizedBox(height: 12),
                       Row(
