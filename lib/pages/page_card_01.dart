@@ -33,7 +33,12 @@ class PageCard01 extends StatelessWidget {
                   child: Column(
                     mainAxisSize: MainAxisSize.min,
                     children: [
-                      
+                      ListTile(
+                        leading: Icon(Icons.install_desktop_rounded, size: 50),
+                        title: Text('Belum Ada Judul'),
+                        subtitle: Text('Sebuah Judul Lagu Dari Iwan Fals'),
+                      ),
+                    
                     ],
                   ),
                 )
