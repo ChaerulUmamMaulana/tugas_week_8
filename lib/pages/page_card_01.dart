@@ -14,7 +14,21 @@ class PageCard01 extends StatelessWidget {
         elevation: 0,
         foregroundColor: Colors.black,
       ),
-      
+
+      body: SingleChildScrollView(
+        child: Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Column(
+          children: [
+            SizedBox(height: 20),
+            Text("INI TEXT", style: TextStyle(fontSize: 16)),
+            SizedBox(
+              height: 10
+            ),
+          ],
+          ),
+        ),
+      ),
     );
   }
 }
