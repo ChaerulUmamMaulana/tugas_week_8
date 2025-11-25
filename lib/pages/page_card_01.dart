@@ -112,6 +112,11 @@ class PageCard01 extends StatelessWidget {
                                 style:
                                     TextStyle(color: Colors.white70, fontSize: 12),
                               ),
+                              SizedBox(height: 3),
+                              Text(
+                                "21/2027",
+                                style: TextStyle(color: Colors.white, fontSize: 14),
+                              ),
                     ],
                     ),
                         ],
