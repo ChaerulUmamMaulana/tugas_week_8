@@ -72,7 +72,20 @@ class PageCard01 extends StatelessWidget {
                       ),
                     ],
                   ),
-
+                    child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                    
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Icon(Icons.credit_card, color: Colors.white70),
+                          Icon(Icons.wifi, color: Colors.white70),
+                        ],
+                      ),
+                    ],
+                    ),
+                  
                   ),
                 ),
             
