@@ -73,8 +73,8 @@ class PageCard01 extends StatelessWidget {
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
-                          Icon(Icons.credit_card, color: Colors.white70),
-                          Icon(Icons.contactless, color: Colors.white70),
+                          Icon(Icons.credit_card, color: Colors.white70, size: 32),
+                          Icon(Icons.contactless, color: Colors.white70, size: 32),
                         ],
                       ),
                       SizedBox(height: 18),
