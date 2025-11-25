@@ -74,7 +74,7 @@ class PageCard01 extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Icon(Icons.credit_card, color: Colors.white70),
-                          Icon(Icons.wifi, color: Colors.white70),
+                          Icon(Icons.contactless, color: Colors.white70),
                         ],
                       ),
                       SizedBox(height: 18),
@@ -141,7 +141,6 @@ class PageCard01 extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.center,
                             children: [
                               Stack(
-                                clipBehavior: Clip.none,
                                 children: [
                                   Container(
                                     width: 30,
