@@ -64,9 +64,19 @@ class PageCard01 extends StatelessWidget {
                       begin: Alignment.topLeft,
                       end: Alignment.bottomRight,
                     ),
+                      boxShadow: [
+                      BoxShadow(
+                        color: Colors.black,
+                        blurRadius: 12,
+                        offset: Offset(0, 8),
+                      ),
+                    ],
+                  ),
+
                   ),
                 ),
-                ),
+            
+                
               ],
               ),
             ),
