@@ -144,6 +144,17 @@ class PageCard01 extends StatelessWidget {
                                   shape: BoxShape.circle,
                                 ),
                               ),
+                        Transform.translate(
+                                offset: const Offset(-10, 0),
+                                child: Container(
+                                  width: 28,
+                                  height: 28,
+                                  decoration: const BoxDecoration(
+                                    color: Colors.orange,
+                                    shape: BoxShape.circle,
+                                  ),
+                                ),
+                              ),
 
                     ],
                 ),
