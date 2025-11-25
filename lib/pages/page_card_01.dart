@@ -93,6 +93,14 @@ class PageCard01 extends StatelessWidget {
                           fontWeight: FontWeight.w500,
                         ),
                       ),
+                    SizedBox(height: 15),
+                     Text(
+                        "Chaerul Umam Maulana",
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 16,
+                        ),
+                      ),
 
                     ],
                     ),
