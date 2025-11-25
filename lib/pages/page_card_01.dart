@@ -101,14 +101,26 @@ class PageCard01 extends StatelessWidget {
                           fontSize: 16,
                         ),
                       ),
-
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: const [
+                              Text(
+                                "Expiry Date",
+                                style:
+                                    TextStyle(color: Colors.white70, fontSize: 12),
+                              ),
                     ],
                     ),
-                  
+                        ],
                   ),
+                    ],
                 ),
             
-                
+                ),
+             ),
               ],
               ),
             ),
