@@ -47,7 +47,10 @@ class PageCard01 extends StatelessWidget {
                     )
                     ],
                   ),
-                )
+                ),
+                SizedBox(height: 10),
+                Stack()
+
               ],
               ),
             ),
